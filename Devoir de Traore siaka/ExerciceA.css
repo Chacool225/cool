@@ -1,0 +1,32 @@
+        /* Accuiel */
+body{
+    background: url(83.jpg);
+}
+h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.col-2{
+    width: 100%;
+}
+#l{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#m{
+    background: url(428.jpg);
+}
+#n{
+    background: url(428.jpg);
+}
+#l{
+    background: url(428.jpg);
+}
+h2{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

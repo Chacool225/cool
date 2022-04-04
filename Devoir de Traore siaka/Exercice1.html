@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercice1.css">
+</head>
+<body>
+    <center>
+    <form>
+        <fieldset style="width: 35%;">
+            <table>
+                <legend>Informations personneles</legend>
+            <tr>
+                <td><label for="Matricule"><b>Matricule: </b></label></td><td><input type="text" placeholder="Matricule"></td>
+            </tr>
+           <tr>
+               <td><label for="Nom"><b>Nom: </b></label></td><td><input type="text" placeholder="Nom" required><br></td>
+            </tr>
+            <tr>
+                <td><label for="Prenoms" id="m"><b>Prenoms:</b></label></td><td><input type="text" placeholder="Prenoms" required></td>
+            </tr>
+            <tr>
+                <td><b>Date de Naissance:</b></td><td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><b>Telephone:</b></td> <td><input type="text" placeholder="telephone" required></td>
+            </tr>
+            <tr>
+                <td><b>Email: </b></td><td><input type="email"></td>
+            </tr>
+          
+          
+          <tr>
+              <td><b>Civilité:</b></td><td><input type="radio" name="Mr">Monsieur </td><td><input type="radio" name="Mr">Madame</td>
+            </tr>
+          <tr><td><b>specialité</b></td><td><select>
+              <option value="webmaster">webmaster</option>
+              <option>Sécurité SI</option>
+              <option>Administrateur Réseau</option>
+              <option>Développeur d'application</option>
+              <option>Comptabilités</option>
+              <option>Marketing</option>
+              <option>GRH</option>
+              <br><br>
+          </select></td></tr><br><br>
+          <tr><td><b>Loisirs: <br><br><br><br></td><td><input type="checkbox">lecture<br><input type="checkbox">Sport <br><input type="checkbox">Musique <br><input type="checkbox">Cinema <br></td>
+            <tr class="li">
+                <td></td><td><input type="reset" id="rest" value="Annuler"></td><td><input type="submit" id="submit" value="Envoyer"></td>
+            </tr>
+          </fieldset>
+            </table> 
+    </form>
+</center>
+</body>
+</html>

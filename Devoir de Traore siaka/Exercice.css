@@ -1,0 +1,51 @@
+
+.Vu{
+    display: flex;
+}
+.lui{
+    display: flex;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #333;
+}
+.vu{
+    margin-top: 40px;
+    /* width: 50%; */
+    background-color: #318ce7;
+    /* box-shadow: 5px 5px 20px 1px 10px rgb(85, 85, 85); */
+    border: 0px;
+    padding-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+}
+.d{
+    background-color: #318ce7;
+}
+#submit{
+    margin: 20px 35px;
+    color: #318ce7;
+    background-color: white;
+    width: 25%;
+    font-size: 17px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+#submit:hover{
+    color: #fff;
+    background-color: #318ce7;
+}
+#rest{
+    margin: 20px 35px;
+    color: #318ce7;
+    background-color: white;
+    width: 25%;
+    font-size: 17px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+#rest:hover{
+    color: #fff;
+    background-color: #318ce7;
+}
